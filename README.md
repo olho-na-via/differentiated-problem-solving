@@ -19,15 +19,15 @@
 | Cidadão beneficiado | Quem usa a rua todos os dias: passageiros de ônibus, motociclistas e entregadores, ciclistas, pedestres (principalmente idosos e pessoas com deficiência) e moradores de áreas que alagam. Também o gestor público, que precisa decidir onde agir primeiro. |
 | Problema, em uma frase | Em São Paulo, buracos, alagamentos, faixas apagadas e semáforos apagados só entram na fila de reparo quando alguém reclama, e ninguém confere de forma sistemática se o conserto foi bem feito. |
 | Como funciona | Um dispositivo IoT com câmera, acelerômetro e GPS, instalado em ônibus, e a análise das câmeras do Smart Sampa detectam problemas com IA. O sistema abre o chamado no órgão responsável, prioriza pela gravidade e, quando o ônibus passa de novo, confirma se o reparo foi feito. Também avisa cidadãos e ambulâncias sobre vias alagadas ou bloqueadas. Cidadãos contribuem pelo app e com um kit próprio em troca de créditos. |
-| O que cada parte faz | **Sensor (Edge/ESP32):** mede impacto, lâmina d'água e luz e decide o estado sozinho · **Lógica (Python):** organiza os chamados, calcula a prioridade e guarda os dados · **Matemática (este repositório):** modela, com dados reais do SP156, quando os pedidos chegam, quanto acumulam sem resposta e quanto tempo esperam, e mostra onde está o maior custo do atraso · **Interface e Interação (React):** landing, app do cidadão, painel do gestor e dados abertos · **Experiência:** jornada, requisitos e roadmap · **Pitch:** a história em 3 minutos. |
-| Link do repositório | Matemática: [github.com/olho-na-via/differentiated-problem-solving](https://github.com/olho-na-via/differentiated-problem-solving) · Backend: [github.com/olho-na-via/backend](https://github.com/olho-na-via/backend) · Frontend: [github.com/olho-na-via/frontend](https://github.com/olho-na-via/frontend) |
+| O que cada parte faz | **Sensor (Edge/ESP32):** mede impacto, lâmina d'água e luz e decide o estado sozinho · **Lógica (Python):** organiza os chamados, calcula a prioridade e guarda os dados · **DPS (este repositório):** modela, com dados reais do SP156, quando os pedidos chegam, quanto acumulam sem resposta e quanto tempo esperam, e mostra onde está o maior custo do atraso · **Interface e Interação (React):** landing, app do cidadão, painel do gestor e dados abertos · **Experiência:** jornada, requisitos e roadmap · **Pitch:** a história em 3 minutos. |
+| Link do repositório | DPS: [github.com/olho-na-via/differentiated-problem-solving](https://github.com/olho-na-via/differentiated-problem-solving) · Backend: [github.com/olho-na-via/backend](https://github.com/olho-na-via/backend) · Frontend: [github.com/olho-na-via/frontend](https://github.com/olho-na-via/frontend) |
 | Indicador de impacto | **Tempo entre o surgimento do problema e o reparo confirmado** (meta: de 6 para no máximo 3 dias nas áreas piloto) e **% de problemas detectados antes de qualquer reclamação** (meta: 60% ou mais). |
 | ODS conectados | `ODS 11` `ODS 9` `ODS 3` `ODS 13` `ODS 10` `ODS 16 · complementar` |
 | Equipe | **Erick Nathan Capito Pereira** · RM573635 |
 
 ## Sobre
 
-Esta é a parte de **Matemática** do Olho na Via. Ela aplica limites, derivadas e integrais aos **113.086 pedidos de tapa-buraco** abertos no SP156 em 2025 e valida o modelo com os **79,5 mil pedidos** de janeiro a setembro de 2026.
+Esta é a parte de **Differentiated Problem Solving** do Olho na Via. Ela aplica limites, derivadas e integrais aos **113.086 pedidos de tapa-buraco** abertos no SP156 em 2025 e valida o modelo com os **79,5 mil pedidos** de janeiro a setembro de 2026.
 
 O trabalho responde a três perguntas, uma para cada etapa da vida de um pedido:
 

@@ -1,6 +1,6 @@
 # prompts.md · Prompts usados em Differentiated Problem Solving
 
-A página 22 do desafio pede que os prompts fiquem registrados em um arquivo `prompts.md`. Este arquivo lista os pedidos feitos ao **Claude Code** (Anthropic) na parte de Matemática do **Olho na Via**, na ordem em que aconteceram.
+A página 22 do desafio pede que os prompts fiquem registrados em um arquivo `prompts.md`. Este arquivo lista os pedidos feitos ao **Claude Code** (Anthropic) na parte de Differentiated Problem Solving do **Olho na Via**, na ordem em que aconteceram.
 
 Os pedidos estão transcritos como foram enviados; só corrigi a digitação e abreviei os caminhos dos arquivos.
 
