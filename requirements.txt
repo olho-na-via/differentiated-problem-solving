@@ -1,0 +1,9 @@
+# Testado com Python 3.14, numpy 2.5.2, pandas 3.0.5, scipy 1.18.1, sympy 1.14.0,
+# matplotlib 3.11.1 e seaborn 0.13.2.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+sympy>=1.12
+matplotlib>=3.7
+seaborn>=0.12  # só no app.ipynb
+jupyter  # só para abrir o app.ipynb
