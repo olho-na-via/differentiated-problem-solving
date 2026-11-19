@@ -45,20 +45,6 @@ O trabalho responde a três perguntas, uma para cada etapa da vida de um pedido:
 |:---:|:---:|:---:|:---:|
 | pedidos de tapa-buraco em 2025 | mediana observada e média pela integral imprópria | da espera total acontece depois de 30 dias | pedidos em aberto no pico da fila (29/04/2025) |
 
-## Entregáveis
-
-A disciplina pede código em `.py` com as implementações e os gráficos, e um relatório técnico em PDF.
-
-| Arquivo | O que é |
-|---|---|
-| [`app.py`](app.py) | A análise completa em script. Imprime os cálculos no terminal, salva os gráficos em `figuras/` e grava os números em `resultados.json` |
-| [`Relatorio Tecnico - DPS - Olho na Via.pdf`](Relatorio%20Tecnico%20-%20DPS%20-%20Olho%20na%20Via.pdf) | Relatório técnico de 16 páginas: problema, dados, modelos, análises de cálculo, interpretação e decisões para o protótipo |
-| [`app.ipynb`](app.ipynb) | A mesma análise em notebook, no padrão das aulas: enunciado, cálculo manual, conferência em Python, gráfico e interpretação |
-| [`preparar_dados.py`](preparar_dados.py) | Reprodutibilidade: transforma os microdados do SP156 nas três bases de `dados/` |
-| [`dados/`](dados) | As três bases agregadas usadas pela análise |
-| [`figuras/`](figuras) | Os oito gráficos gerados pelo `app.py` |
-| [`resultados.json`](resultados.json) | Todos os números calculados; o relatório lê os valores daqui |
-
 ## Resultados
 
 ### Parte 1 · Demanda semanal
