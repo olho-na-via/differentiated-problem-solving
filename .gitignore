@@ -1,0 +1,7 @@
+# Microdados brutos do SP156 (cerca de 800 MB), lidos só pelo preparar_dados.py
+microdados/
+
+__pycache__/
+.ipynb_checkpoints/
+.ruff_cache/
+.venv/
